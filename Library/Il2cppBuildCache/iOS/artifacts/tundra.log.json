@@ -1,0 +1,5 @@
+{"msg":"init","dagFile":"artifacts/tundra.dag","targets":[]}
+{"msg":"newNode","annotation":"Il2Cpp /Users/oldrichjanousek/Desktop/Salon/Salon/Library/Il2cppBuildCache/iOS/il2cppOutput","index":1}
+{"msg":"noderesult","annotation":"Il2Cpp /Users/oldrichjanousek/Desktop/Salon/Salon/Library/Il2cppBuildCache/iOS/il2cppOutput","index":1,"exitcode":0}
+{"msg":"inputSignatureChanged","annotation":"Copy Additional C++ File /Users/oldrichjanousek/Desktop/Salon/Salon/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp","index":2,"changes":[{"key":"InputFileDigest","path":"/Users/oldrichjanousek/Desktop/Salon/Salon/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp","dependency":"explicit"}]}
+{"msg":"noderesult","annotation":"Copy Additional C++ File /Users/oldrichjanousek/Desktop/Salon/Salon/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp","index":2,"exitcode":0}

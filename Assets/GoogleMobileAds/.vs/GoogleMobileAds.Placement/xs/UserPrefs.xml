@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{FC370120-2F06-46AD-B0AC-5193AE65892E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Scripts/Ads.cs">
+    <Files>
+      <File FileName="../Scripts/Ads.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GoogleMobileAds.Placement" expanded="True" />
+          <Node name="Salon" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Ads.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GoogleMobileAds.Placement PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
