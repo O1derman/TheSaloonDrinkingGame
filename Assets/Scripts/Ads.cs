@@ -1,5 +1,4 @@
 using GoogleMobileAds.Api;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Ads : MonoBehaviour

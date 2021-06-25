@@ -23,6 +23,12 @@ MonoBehaviour:
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: f8457d97759fb48fa9f0a370cb771061
+    m_Address: Assets/Locallisation/Tables/Never Have I Ever Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 487975f57fd2b45caabaa8b08949ee6b, type: 2}
   m_SchemaSet:

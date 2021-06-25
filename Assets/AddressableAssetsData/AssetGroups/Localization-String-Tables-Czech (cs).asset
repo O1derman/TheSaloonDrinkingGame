@@ -24,6 +24,13 @@ MonoBehaviour:
     - Locale-cs
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: c499af92bd60c44839a3859a5a759a17
+    m_Address: Never Have I Ever_cs
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-cs
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 487975f57fd2b45caabaa8b08949ee6b, type: 2}
   m_SchemaSet:

@@ -1,11 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Tables;
 
 public class BottleRotation : MonoBehaviour
 {
-
+    [SerializeField]
+    private LocalizedStringTable _localizedStringTable = null;
     public float tiltEffectSpeed = 500f;
+    public TextMeshProUGUI textMPro = null;
+
+    private StringTable _currentStringTable;
+    private int len;
+    private List<int> usedInts = new List<int>();
 
     private bool move = false;
     private bool spin = false;
@@ -21,6 +30,20 @@ public class BottleRotation : MonoBehaviour
 
     private bool finishedSpin = true;
 
+    private IEnumerator Start()
+    {
+        // 2. Wait for the table to load asynchronously
+        if (!_localizedStringTable.IsEmpty)
+        {
+            var tableLoading = _localizedStringTable.GetTable();
+            yield return tableLoading;
+            _currentStringTable = tableLoading.Result;
+
+            len = _currentStringTable.Values.Count;
+        }
+    }
+
+    [System.Obsolete]
     void Update()
     {
         if (Input.touchCount > 0)
@@ -29,8 +52,12 @@ public class BottleRotation : MonoBehaviour
 
             if (touch.phase == TouchPhase.Moved)
             {
-                if (finishedSpin)
+                if (finishedSpin && !move)
                 {
+                    if (textMPro != null)
+                    {
+                        writeNewTask();
+                    }
                     move = true;
                 }
             }
@@ -115,5 +142,23 @@ public class BottleRotation : MonoBehaviour
             spinning = false;
             spin2 = false;
         }
+    }
+
+    [System.Obsolete]
+    private void writeNewTask()
+    {
+        int rInt = Random.RandomRange(1, len + 1); //for ints
+        if (usedInts.Count == len)
+        {
+            usedInts.Clear();
+        }
+        while (usedInts.Contains(rInt))
+        {
+            rInt = Random.RandomRange(1, len + 1); //for ints
+        }
+        usedInts.Add(rInt);
+        var str = _currentStringTable[rInt.ToString()].LocalizedValue;
+        textMPro.text = str;
+        Debug.Log(str);
     }
 }

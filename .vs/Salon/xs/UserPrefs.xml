@@ -1,16 +1,23 @@
 ﻿<Properties StartupConfiguration="{3F13B99F-65AD-8463-A93F-271D9F3AE636}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BottleRotation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/navigation/SpinTheBottleHowToPlayButtons.cs">
     <Files>
-      <File FileName="Assets/Scripts/Ads.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BottleRotation.cs" Line="82" Column="33" />
+      <File FileName="Assets/Scripts/navigation/MoreButtons.cs" Line="7" Column="2" />
+      <File FileName="Assets/Scripts/navigation/MainMenuButtons.cs" />
+      <File FileName="Assets/Scripts/StaticVariables.cs" />
+      <File FileName="Assets/Scripts/BottleRotation.cs" />
+      <File FileName="Assets/Scripts/navigation/SpinTheBottleCategoryButtons.cs" />
+      <File FileName="Assets/Scripts/navigation/SpinTheBottleGameButtons.cs" />
+      <File FileName="Assets/Scripts/navigation/AboutButtons.cs" />
+      <File FileName="Assets/Scripts/navigation/SpinTheBottleHowToPlayButtons.cs" Line="31" Column="54" />
+      <File FileName="Assets/Scripts/ChooseRandomTextFromTable.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Salon" expanded="True">
-            <Node name="Assets" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
               <Node name="Scripts" expanded="True">
-                <Node name="BottleRotation.cs" selected="True" />
+                <Node name="navigation" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c2ad7fa2-ed19-4636-8dc5-56ff46a4f391" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8a3f2403-2335-461b-acaf-dee9b370c2b9" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

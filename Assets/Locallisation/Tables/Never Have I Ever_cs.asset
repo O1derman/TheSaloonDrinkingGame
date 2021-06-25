@@ -1,0 +1,868 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Never Have I Ever_cs
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: cs
+  m_SharedData: {fileID: 11400000, guid: f8457d97759fb48fa9f0a370cb771061, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 10001
+    m_Localized: "Nikdy jsem ne\u0161el/a ven \u201Cnaostro\u201D.\_"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10002
+    m_Localized: "Nikdy jsem nenato\u010Dil/a TikTok video."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10003
+    m_Localized: "Nikdy jsem nejedl/a \u010D\xEDnsk\xFDmi h\u016Flkami."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10004
+    m_Localized: "Nikdy jsem se nazamiloval/a do sv\xE9ho nejlep\u0161\xEDho p\u0159\xEDtele/p\u0159\xEDtelkyn\u011B."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10005
+    m_Localized: Nikdy jsem neplival/a z mostu na auta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10006
+    m_Localized: "Nikdy jsem nedal/a bezdomovci drobn\xFD."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10007
+    m_Localized: "Nikdy jsem nepou\u017Eil Tinder, Badoo ani Grinder."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10008
+    m_Localized: "Nikdy jsem si neprdnul p\u0159ed svoj\xED polovi\u010Dkou."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10009
+    m_Localized: "Nikdy jsem si nepsal s n\u011Bk\xFDm, kdo ani nem\u011Bl \u0161anci.
+      (na to m\u011B prcat)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10010
+    m_Localized: Nikdy jsem nepil kafe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10011
+    m_Localized: "Nikdy jsem nekou\u0159il."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10012
+    m_Localized: "Nikdy jsem nedostal pokutu za p\u0159ekro\u010Den\xED povolen\xE9
+      rychlosti."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10013
+    m_Localized: Nikdy jsem nebyl podvedenej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10014
+    m_Localized: NIkdy jsem nikoho nestalkoval na instagramu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10015
+    m_Localized: "Nikdy jsem sex (nebo i honi\u010Dku) v dopravn\xEDm prost\u0159edku."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10016
+    m_Localized: Nikdy jsem nekoukal na porno.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10017
+    m_Localized: "Nikdy jsem neochutnal gumov\xE9 medv\xEDdky namo\u010Den\xE9 ve
+      vodce."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10018
+    m_Localized: "Nikdy jsem si nezabouchnul kl\xED\u010De v aut\u011B."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10019
+    m_Localized: "Nikdy jsem neslo\u017Eil rubikovu kostku. \u2013 Pijte Nerdi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10020
+    m_Localized: "Nikdy jsem nedal d\xFD\u0161ko v restauraci."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10021
+    m_Localized: "Nikdy jsem neucpal z\xE1chod. \u2013 Pijte Nechu\u0165\xE1ci."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10022
+    m_Localized: "Nikdy jsem se nesm\xE1l vtipu, kter\xFDmu jsem nerozumn\u011Bl."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10023
+    m_Localized: "Nikdy jsem nehr\xE1l \u0161achy. \u2013 Pijte Nerdi!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10024
+    m_Localized: "Nikdy jsem neprohr\xE1l s\xE1zku."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10025
+    m_Localized: "Nikdy jsem nezlomil \u017Eidli, t\xEDm \u017Ee jsem na n\xED sed\u011Bl."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10026
+    m_Localized: Nikdy jsem nedostal vyhazov.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10027
+    m_Localized: "Nikdy jsem nejsem. \u2013 Prost\u011B pijte."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10028
+    m_Localized: "Nikdy jsem si nehonil bambul\xEDka nebo neprstila fifinku."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10029
+    m_Localized: "Nikdy jsem neutratil pen\xEDze za chlastac\xED aplikaci."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10030
+    m_Localized: "Nikdy jsem si ne\u010Distil zuby."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10031
+    m_Localized: "Nikdy jsem nepou\u017Eil fale\u0161n\xE9 ID."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10032
+    m_Localized: "Nikdy jsem nezme\u0161kal let."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10033
+    m_Localized: "Nikdy jsem nebyl na st\u0159elnici."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10034
+    m_Localized: "Nikdy jsem se nepoblil na pou\u0165ov\xE9 atrakci."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10035
+    m_Localized: "Nikdy jsem neud\u011Blal stojku na hlav\u011B."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10036
+    m_Localized: "Nikdy jsem nevytvo\u0159il \xFAnikov\xFD pl\xE1n pro Zombie apokalypsu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10037
+    m_Localized: "Nikdy jsem neprohr\xE1l v casinu pen\xEDze nebo p\u0159i hazardn\xED
+      h\u0159e."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10038
+    m_Localized: "Nikdy jsem nelhal o tom, kolik mi je, abych z\xEDskal n\u011Bco
+      se slevou."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10039
+    m_Localized: "Nikdy jsem vo\u017Eralej neusnul ve van\u011B."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10040
+    m_Localized: "Nikdy jsem nebyl v kin\u011B."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10041
+    m_Localized: "Nikdy jsem nepou\u017Eil oble\u010Den\xED, kter\xFD jsem vyt\xE1ch
+      ze \u0161pinav\xFDho pr\xE1dla."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10042
+    m_Localized: "Nikdy jsem nejedl \u017Er\xE1dlo m\xE9ho mazl\xED\u010Dka."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10043
+    m_Localized: "Nikdy jsem nena\u010Dapal rodi\u010De p\u0159i sexu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10044
+    m_Localized: "Nikdy jsem ne\u0159\xEDdil motorku/sufusky/zidan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10045
+    m_Localized: "Nikdy jsem nem\u011Bl cucflek."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10046
+    m_Localized: "Nikdy jsem ne\u010D\u016Fral ve spr\u0161e."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10047
+    m_Localized: "Nikdy jsem nelhal o sv\xE9m panenstv\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10048
+    m_Localized: "Nikdy jsem nem\u011Bl m\xEDnus na bankovn\xEDm \xFA\u010Dtu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10049
+    m_Localized: "Nikdy jsem nem\u011Bl sex na ve\u0159ejnosti."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10050
+    m_Localized: "Nikdy jsem nem\u011Bl rande."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10051
+    m_Localized: "Nikdy jsem ne\u0159\xEDdil auto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10052
+    m_Localized: "Nikdy jsem se nevykous se stejn\xFDm pohlav\xEDm."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10053
+    m_Localized: "Nikdy jsem se nevykous s b\xFDval\xFDm partnerem kamar\xE1da."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10054
+    m_Localized: "Nikdy jsem nebyl nah\xFD na ve\u0159ejnosti."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10055
+    m_Localized: "Nikdy jsem nem\u011Bl sex s cizincem."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10056
+    m_Localized: "Nikdy jsem ne\u0159ek \u0161patn\xE9 jm\xE9no partnera b\u011Bhem
+      sexu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10057
+    m_Localized: "Nikdy jsem nelhal p\u0159i chlastac\xED h\u0159e."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10058
+    m_Localized: "Nikdy jsem se v klubu nevykous s v\xEDce jak dv\u011Bma lidma za
+      noc."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10059
+    m_Localized: Nikdy jsem nezabil mouchu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10060
+    m_Localized: Nikdy jsem se neopil.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10061
+    m_Localized: Nikdy jsem si nelakoval nehty.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10062
+    m_Localized: "Nikdy jsem nesved sv\u016Fj prd na n\u011Bkoho jin\xE9ho."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10063
+    m_Localized: "Nikdy jsem ne\u017E\xE1rlil/a na sv\xE9ho partnera."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10064
+    m_Localized: "Nikdy jsem si nepomo\u010Dil nohu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10065
+    m_Localized: "Nikdy jsem nesnil o sexu s u\u010Ditelkou/u\u010Ditelem."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10066
+    m_Localized: "Nikdy jsem nem\u011Bl nic zlomen\xE9ho."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10067
+    m_Localized: Nikdy jsem nikomu nedal friendzone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10068
+    m_Localized: "Nikdy jsem nem\u011Bl tah\xE1k p\u0159i testu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10069
+    m_Localized: "Nikdy jsem nep\u0159em\xEDtal o svoj\xED sexu\xE1ln\xED orientaci."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10070
+    m_Localized: "Nikdy jsem nejel na \u010Derno v MHD."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10071
+    m_Localized: "Nikdy jsem ho nem\u011Bl tvrd\xFDho ve t\u0159\xEDd\u011B."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10072
+    m_Localized: "Nikdy jsem nepo\u010Dm\xE1ral sp\xEDc\xEDho kamar\xE1da."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10073
+    m_Localized: "Nikdy jsem nebruslil na rybn\xEDce."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10074
+    m_Localized: "Nikdy jsem ned\u011Blal 69ku."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10075
+    m_Localized: "Nikdy jsem nebyl zamilovan\xFD."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10076
+    m_Localized: "Nikdy jsem nebre\u010Del p\u0159i filmu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10077
+    m_Localized: "Nikdy jsem nebyl sou\u010D\xE1st\xED moshpitu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10078
+    m_Localized: Nikdy jsem nepotkal celebritu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10079
+    m_Localized: Nikdy jsem nikomu nepochcal auto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10080
+    m_Localized: "Nikdy jsem nehr\xE1l \u201CNikdy jsem\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10081
+    m_Localized: "Nikdy jsem nebyl ter\u010Dem kanadsk\xE9ho \u017Eert\xEDku."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10082
+    m_Localized: "Nikdy jsem se nevr\xE1til k ex jen kv\u016Fli sexu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10083
+    m_Localized: "Nikdy jsem nes\xE1hl/a klukovi na zadek."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10084
+    m_Localized: "Nikdy jsem p\u0159i fla\u0161ce nebo stoln\xEDm fotb\xE1lku neskon\u010Dil
+      v\xEDc nah\xFD ne\u017E bych si p\u0159\xE1l."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10085
+    m_Localized: "Nikdy jsem se nekoupal v rybn\xEDku beo jeze\u0159e nahej."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10086
+    m_Localized: "Nikdy jsem si neoholil podpa\u017E\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10087
+    m_Localized: "Nikdy jsem nezp\xEDval karaoke."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10088
+    m_Localized: Nikdy jsem se nepozvracel na silvestra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10089
+    m_Localized: "Nikdy jsem nebyl n\xE1m\u011Bs\xED\u010Dnej."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10090
+    m_Localized: "Nikdy jsem nep\u0159i\u0161el pozd\u011B do \u0161koly/pr\xE1ce."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10091
+    m_Localized: "Nikdy jsem nepil alcohol br\u010Dkem."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10092
+    m_Localized: Nikdy jsem se nepopral.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10093
+    m_Localized: Nikdy jsem nemixoval alkohol s energy drinky.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10094
+    m_Localized: "Nikdy jsem si po r\xE1nu nedal vypro\u0161\u0165ov\xE1ka z kocoviny."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10095
+    m_Localized: "Nikdy jsem nenajel na obrubn\xEDk."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10096
+    m_Localized: Nikdy jsem nebyl na road tripu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10097
+    m_Localized: "Nikdy jsem nespal pod hv\u011Bzdama."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10098
+    m_Localized: "Nikdy jsem nelhal nejlep\u0161\xEDmu kamar\xE1dovi o tom s k\xFDm
+      jsem."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10099
+    m_Localized: "Nikdy jsem o\u017Eral\xFD nenapodoboval zv\xED\u0159e."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10100
+    m_Localized: "Nikdy jsem nejedl ve \u0161koln\xED j\xEDdeln\u011B."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10101
+    m_Localized: "Nikdy jsem nepil alkohol, kter\xFD m\u011Bl v\xEDce jak t\u0159icet
+      procent."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10102
+    m_Localized: "Nikdy jsem ned\u011Blal kamar\xE1dovi alibi p\u0159ed jeho p\u0159\xEDtelkyn\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10103
+    m_Localized: "Nikdy jsem ned\u011Blal role-playing p\u0159i sexu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10104
+    m_Localized: "Nikdy jsem neprozkoum\xE1val opu\u0161t\u011Bnou budovu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105
+    m_Localized: "Nikdy jsem nedojil zv\xED\u0159e."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10106
+    m_Localized: "Nikdy jsem se neroze\u0161el p\u0159es telefon."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10107
+    m_Localized: "Nikdy jsem nem\u011Bl tetov\xE1n\xED. (Hena se taky po\u010D\xEDt\xE1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10108
+    m_Localized: "Nikdy jsem nem\u011Bl vztah del\u0161\xED jak rok."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10109
+    m_Localized: "Nikdy jsem nic neukradl z hotelov\xE9ho pokoje."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10110
+    m_Localized: "Nikdy jsem nehr\xE1l po\u010D\xEDta\u010Dovou nebo mobiln\xED hru."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10111
+    m_Localized: "Nikdy jsem se neobl\xEDkl/a jako \u017Eena."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10112
+    m_Localized: "Nikdy jsem si nenechal/a ud\u011Blat \xFA\u010Des abych byl trendy."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10113
+    m_Localized: "Nikdy jsem nestalkoval/a moj\xED ex."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10114
+    m_Localized: "Nikdy jsem ne\u010D\u016Fral v baz\xE9nu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10115
+    m_Localized: "Nikdy jsem neve\u0161el na \u0161patn\xE9 z\xE1chody na ve\u0159ejnosti."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10116
+    m_Localized: "Nikdy jsem nesk\xE1kal s pad\xE1kem."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10117
+    m_Localized: "Nikdy jsem neotev\u0159el l\xE1hev jinou l\xE1hv\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118
+    m_Localized: Nikdy jsem nekoukal na Netflix celej den.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10119
+    m_Localized: Nikdy jsem nedostal drink zdarma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10120
+    m_Localized: "Nikdy jsem nikoho nepol\xEDbil."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10121
+    m_Localized: "Nikdy jsem si nespletl jm\xE9no m\xE9ho partnera."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10122
+    m_Localized: "Nikdy jsem nep\u0159edst\xEDral, \u017Ee mi n\u011Bco chutn\xE1
+      abych ud\u011Blal kucha\u0159i radost.."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10123
+    m_Localized: "Nikdy jsem nevyhr\xE1l pen\xEDze v hazardu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10124
+    m_Localized: "Nikdy jsem se nepokusil uhodnout n\u011B\u010D\xED heslo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10125
+    m_Localized: "Nikdy jsem nevymyslel vtipnou p\xEDsni\u010Dku/b\xE1sni\u010Dku."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10126
+    m_Localized: "Nikdy jsem si omylem neprdnul/a b\u011Bhem mas\xE1\u017Ee."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10127
+    m_Localized: "Nikdy jsem nenab\xEDral kamar\xE1dy do multilevel marketingu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10128
+    m_Localized: "Nikdy jsem si nenechal ud\u011Blat tetov\xE1n\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10129
+    m_Localized: Nikdy jsem nejel v traktoru.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10130
+    m_Localized: "Nikdy jsem ne\u0161el b\u011Bhat."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10131
+    m_Localized: Nikdy jsem se nevyboural.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10132
+    m_Localized: "Nikdy jsem neut\xEDkal p\u0159ed zv\xED\u0159etem."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10133
+    m_Localized: "Nikdy jsem nezkusil adrenalinov\xFD sport."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10134
+    m_Localized: "Nikdy jsem nebre\u010Del z p\xE1liv\xFDho j\xEDdla."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10135
+    m_Localized: Nikdy jsem nesurfoval.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10136
+    m_Localized: "Nikdy jsem ne\u010Distil hajzly za pen\xEDze. - My u\u017E chceme
+      skon\u010Dit, proto jsme vymysleli tuhle aplikaci, kup si ji celou a pomo\u017E
+      n\xE1m."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10137
+    m_Localized: Nikdy jsem neprobdil celou noc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10138
+    m_Localized: "Nikdy jsem nedostal pozn\xE1mku ve \u0161kole."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10139
+    m_Localized: Nikdy jsem se nerval.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10140
+    m_Localized: Nikdy jsem nenakoupil u Vietnamce.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10141
+    m_Localized: "Nikdy jsem neplakal/a po n\xE1v\u0161t\u011Bv\u011B holi\u010De."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10142
+    m_Localized: Nikdy jsem nejedl hmyz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10143
+    m_Localized: "Nikdy jsem se neopaloval naho\u0159e bez."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10144
+    m_Localized: "Nikdy jsem ne\u0161el na n\xE1kup opil\xFD."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10145
+    m_Localized: "Nikdy jsem neposlal v\xE1\u0161nivou zpr\xE1vu nespr\xE1vn\xE9
+      osob\u011B."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10146
+    m_Localized: "Nikdy jsem na nikoho nebu\u010Del na fotbale nebo hokeji."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10147
+    m_Localized: "Nikdy jsem nenam\xE1\u010Del hranolky do McFlurry."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10148
+    m_Localized: "Nikdy jsem nefotil selfie p\u0159i sprchov\xE1n\xED se."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10149
+    m_Localized: "Nikdy jsem nezkou\u0161el pot\xE1p\u011Bn\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10150
+    m_Localized: "Nikdy jsem nem\u011Bl crush."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10151
+    m_Localized: "Nikdy jsem nejel v motok\xE1\u0159e."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10152
+    m_Localized: "Nikdy jsem nem\u011Bl probl\xE9my se sp\xE1nkem po sledov\xE1n\xED
+      d\u011Bsiv\xE9ho filmu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10153
+    m_Localized: "Nikdy jsem nebyl na ochutn\xE1vce v\xEDna. - Ochutn\xE1vky krabic\xE1k\u016F
+      se nepo\u010D\xEDtaj bez\u010F\xE1ci!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10154
+    m_Localized: "Nikdy jsem nebyl na Halloweensk\xFDm ve\u010D\xEDrku."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10155
+    m_Localized: "Nikdy jsem ne\u0159\xEDdil manu\xE1l."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10156
+    m_Localized: "Nikdy jsem nedostal \u201Csurprise\u201D party."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10157
+    m_Localized: Nikdy jsem nevolal na erotickou linku.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10158
+    m_Localized: "Nikdy jsem nebyl nah\xFD ve v\xED\u0159ivce s v\xEDce lidmi. -
+      S rodinou se nepo\u010D\xEDt\xE1 vy \xFAchyl\xE1ci!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10159
+    m_Localized: "Nikdy jsem nikoho nesv\xE1d\u011Bl sv\xFDm akcentem."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10160
+    m_Localized: "Nikdy jsem nem\u011Bl profil na soci\xE1ln\xEDch m\xE9di\xEDch."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10161
+    m_Localized: "Nikdy jsem nekou\u0159il tr\xE1vu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10162
+    m_Localized: "Nikdy jsem na sob\u011B nem\u011Bl stejn\xFD spodn\xED pr\xE1dlo,
+      v\xEDc jak t\u0159i dny po sob\u011B."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10163
+    m_Localized: "Nikdy jsem nekou\u0159il marihuanu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10164
+    m_Localized: "Nikdy jsem nebyl na fes\u0165\xE1ku."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10165
+    m_Localized: "Nikdy jsem nezp\xEDval karaoke."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10166
+    m_Localized: "Nikdy jsem ned\u011Blal komparz ve filmu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10167
+    m_Localized: "Nikdy jsem nepou\u017E\xEDval deodorant m\xEDsto toho abych se
+      vysprchoval."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10168
+    m_Localized: "Nikdy jsem ned\u011Blal prank call."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10169
+    m_Localized: "Nikdy jsem nem\u011Bnil \u017E\xE1rovku."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10170
+    m_Localized: Nikdy jsem nepil alkohol.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10171
+    m_Localized: "Nikdy jsem nem\u011Bl pizzu Hawai."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10172
+    m_Localized: "Nikdy jsem neinvestoval do akci\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173
+    m_Localized: "Nikdy jsem nikoho nedou\u010Doval za pen\xEDze, i kdy\u017E um\xEDm
+      velk\xFD hovno."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10174
+    m_Localized: "Nikdy jsem ne\u010Detl sexu\xE1ln\xEDho pr\u016Fvodce."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10175
+    m_Localized: Nikdy jsem nikomu nekradl wi-fi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10176
+    m_Localized: "Nikdy jsem nevinil uprdnut\xED si na dom\xE1c\xEDho mazl\xED\u010Dka."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10177
+    m_Localized: Nikdy jsem nedostal vyhazov.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10178
+    m_Localized: "Nikdy jsem se nezranil, kdy\u017E jsem se sna\u017Eil na n\u011Bkoho
+      ud\u011Blat dojem."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10179
+    m_Localized: "Nikdy jsem si nevyd\u011Blal pen\xEDze hran\xEDm hudebn\xEDch n\xE1stroj\u016F
+      na ulici."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10180
+    m_Localized: "Nikdy jsem nelhal o sv\xE9m v\u011Bku."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10181
+    m_Localized: "Nikdy jsem neode\u0161el ze z\xE1chodu bez myt\xED rukou."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10182
+    m_Localized: "Nikdy jsem nehr\xE1l Truth or Dare."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10183
+    m_Localized: "Nikdy jsem nezp\xEDval nahlas na ve\u0159ejnosti."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10184
+    m_Localized: "Nikdy jsem nedostal pokutu za parkov\xE1n\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10185
+    m_Localized: "Nikdy jsem nedal sv\xFDmu mazl\xED\u010Dkovi lidsk\xFD j\xEDdlo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10186
+    m_Localized: "Nikdy jsem nem\u011Bl okno z pit\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10187
+    m_Localized: "Nikdy jsem nelitoval toho jak jsem se p\u0159edt\xEDm z\u0159\xEDdil."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10188
+    m_Localized: "Nikdy jsem nevypr\xE1v\u011Bl p\u0159\xEDb\u011Bh n\u011Bkoho jin\xE9ho
+      a p\u0159edst\xEDral, \u017Ee se to stalo mn\u011B."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10189
+    m_Localized: "Nikdy jsem v hospod\u011B nepostavil pyramidu z podt\xE1ck\u016F."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10190
+    m_Localized: "Nikdy jsem nespal v\xEDc jak 10 hodin v kuse."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10191
+    m_Localized: "Nikdy jsem neode\u0161el z filmu, proto\u017Ee byl stra\u0161nej."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10192
+    m_Localized: "Nikdy jsem nem\u011Bl sex s jin\xFDm hr\xE1\u010Dem na tomto stole."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10193
+    m_Localized: "Nikdy jsem se nevykous s jin\xFDm hr\xE1\u010Dem na tomto stole."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10194
+    m_Localized: "Nikdy jsem nechr\xE1pal ve sp\xE1nku."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10195
+    m_Localized: "Nikdy jsem partnerovi neud\u011Blal/a sn\xEDdani do postele."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10196
+    m_Localized: "Nikdy jsem nikomu ne\u0159ek: \u201CMiluju T\u011B\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10197
+    m_Localized: "Nikdy jsem nem\u011Bl vztah na letn\xED dovolen\xE9 a pak se s
+      t\xEDm \u010Dlov\u011Bkem u\u017E nebavil."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10198
+    m_Localized: "Nikdy jsem na nikoho nek\u0159i\u010Del z hn\u011Bvu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10199
+    m_Localized: "Nikdy jsem se nedopustil zlo\u010Dinu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10200
+    m_Localized: Nikdy jsem nejedl brokolici.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10201
+    m_Localized: "Nikdy jsem nenapsal fanou\u0161kovsk\xFD dopis celebrit\u011B."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10202
+    m_Localized: "Nikdy jsem se necht\u011Bl p\u0159est\u011Bhovat do jin\xE9ho m\u011Bsta."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10203
+    m_Localized: "Nikdy jsem nep\u0159edst\xEDral, \u017Ee jsem ne\u010Detl p\u0159ijatou
+      zpr\xE1vu, proto\u017Ee jsem necht\u011Bl odpov\u011Bd\u011Bt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10204
+    m_Localized: "Nikdy jsem nic nepa\u0161oval do kina."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65706909696
+    m_Localized: Nikdy jsem nepracoval ve fast-foodu.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
